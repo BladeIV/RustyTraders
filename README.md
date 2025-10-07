@@ -60,3 +60,21 @@ BladeIV (GitHub: [BladeIV](https://github.com/BladeIV))
 
 ## 🧩 Project Structure
 
+rustytraders/
+│
+├── frontend/ # Next.js client
+│ ├── pages/
+│ │ ├── auth/ # login / register
+│ │ └── kyc.tsx # KYC upload (Phase 2)
+│ └── components/
+│
+├── backend/ # NestJS API
+│ ├── src/
+│ │ ├── auth/ # JWT Auth module
+│ │ ├── kyc/ # KYC Verification (Phase 2)
+│ │ └── prisma/ # PrismaService
+│ └── prisma/schema.prisma
+│
+├── docker-compose.yml
+├── .env.example
+└── README.md

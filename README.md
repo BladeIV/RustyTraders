@@ -8,7 +8,7 @@ Built with security and transparency at its core, the platform enforces **full K
 ## 👤 Developed By
 BladeIV (GitHub: [BladeIV](https://github.com/BladeIV))  
 📍 Durban, South Africa  
-📧 support@prototypeit.co.za *(or your preferred contact email)*
+📧 support@prototypeit.co.za 
 
 ---
 

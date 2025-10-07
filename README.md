@@ -6,10 +6,9 @@ Built with security and transparency at its core, the platform enforces **full K
 ---
 
 ## 👤 Developed By
-**Prototype I.T Consultants (PITC)**  
-**Lead Developer:** Liam Marc-Noël Timm (GitHub: [BladeIV](https://github.com/BladeIV))  
+BladeIV (GitHub: [BladeIV](https://github.com/BladeIV))  
 📍 Durban, South Africa  
-📧 prototype.it.consultants@gmail.com *(or your preferred contact email)*
+📧 support@prototypeit.co.za *(or your preferred contact email)*
 
 ---
 

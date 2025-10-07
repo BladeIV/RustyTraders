@@ -58,23 +58,27 @@ BladeIV (GitHub: [BladeIV](https://github.com/BladeIV))
 
 ---
 
-## 🧩 Project Structure
+## 🧩 Project Structure Overview
 
-rustytraders/
-│
-├── frontend/                 # Next.js client
-│   ├── pages/
-│   │   ├── auth/             # login / register
-│   │   └── kyc.tsx           # KYC upload (Phase 2)
-│   └── components/
-│
-├── backend/                  # NestJS API
-│   ├── src/
-│   │   ├── auth/             # JWT Auth module
-│   │   ├── kyc/              # KYC Verification (Phase 2)
-│   │   └── prisma/           # PrismaService
-│   └── prisma/schema.prisma
-│
-├── docker-compose.yml
-├── .env.example
-└── README.md
+Module	Purpose	Key Features
+Frontend (Next.js)	Handles all user interactions and page rendering. Built with React and Tailwind CSS for speed and responsiveness.	Login & Registration, KYC Upload Page, Marketplace Listing Interface, Admin Dashboard UI
+Backend (NestJS API)	The core application server responsible for business logic, data management, and API endpoints.	JWT Authentication, KYC Processing, Payments (Paystack), Chat & Notifications
+Authentication Service	Manages secure user sessions using RSA-based JWTs.	Login, Registration, Password Management, Role-based Access Control
+KYC Verification Service	Ensures identity verification for all buyers and sellers before trading is allowed.	ID & Selfie Upload, Admin Approval, Encrypted File Handling
+Database Layer (Prisma + PostgreSQL)	Stores all users, listings, transactions, and KYC records in a relational schema.	Prisma ORM, Migrations, Model Validation, Encrypted Data Fields
+Marketplace Core	Central trading system where verified users can post and browse listings.	Categories, Search Filters, Location Sorting, Chat Between Users
+Payments Module	Handles listing fees and transaction confirmations securely.	Paystack Integration, Escrow-style Release, Refund Logic
+Admin Console	A control panel for system oversight and fraud management.	Approve/Reject KYCs, Suspend Accounts, Manage Disputes
+Infrastructure & DevOps	Manages environment setup, containers, and cloud configuration.	Docker Compose Stack, .env Configuration, RSA Key Generation, CI/CD Integration (planned)
+🧰 Folder Summary
+Path	Description
+frontend/	The Next.js web client, including all pages, components, and authentication forms.
+backend/	The NestJS API containing modules for auth, KYC, marketplace, and payments.
+backend/src/auth/	Authentication module with JWT guard, user service, and login controller.
+backend/src/kyc/	Handles all KYC logic (uploads, admin verification, database linkage).
+backend/prisma/schema.prisma	Prisma schema file defining database tables and relations.
+docker-compose.yml	Container setup for PostgreSQL, backend API, and frontend UI.
+.env.example	Environment variable template (database URL, JWT keys, API endpoints).
+README.md	Project documentation file (this document).
+
+

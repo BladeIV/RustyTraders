@@ -81,14 +81,5 @@ rustytraders/
 ├── .env.example
 └── README.md
 ```
-## 🚀 Project Overview
-
-| **Phase** | **Title** | **Status** | **Description** |
-|:--|:--|:--|:--|
-| **1** | Setup & Authentication | ✅ Completed | Environment scaffolding (Next.js + NestJS + Docker), JWT authentication, database, and GitHub repository initialization. |
-| **2** | KYC & Verification | 🔄 In Progress | Secure identity verification (ID and live selfie upload), encrypted file storage, and admin approval system. |
-| **3** | Marketplace Core | ⏳ Pending | Core marketplace features including listings, categories, search filters, and real-time chat between buyers and sellers. |
-| **4** | Payments & Safety Layer | ⏳ Pending | Paystack integration for listing fees, escrow-style transactions, and fraud-prevention logic. |
-| **5** | Reviews & Launch | ⏳ Pending | Ratings and review system, verified seller badges, and final deployment with a full security audit. |
 
 

@@ -78,3 +78,17 @@ rustytraders/
 ├── docker-compose.yml
 ├── .env.example
 └── README.md
+📆 Development Timeline
+Week	Focus	Key Deliverables
+Week 1	Phase 1 – Setup & Authentication	✅ Completed full stack environment, database, JWT auth
+Week 2	Phase 2 – KYC & Verification	ID + Selfie upload, Admin approval dashboard
+Week 3	Phase 3 – Marketplace Core	Listings, filters, search, chat
+Week 4	Phase 4 – Payments	Paystack integration, escrow release
+Week 5	Phase 5 – Launch & Reviews	Verified badges, post-deployment audit
+💰 Payment Milestones
+Milestone	Description	Percentage	Status
+Deposit #1	Phase 1 Completion – Setup & Authentication	20%	✅ Due upon acceptance
+Milestone #2	KYC & Verification Module	25%	🔄 In progress
+Milestone #3	Marketplace Core Features	25%	⏳ Pending
+Milestone #4	Payments & Transaction Safety	20%	⏳ Pending
+Milestone #5	Launch & Security Audit	10%	⏳ Pending

@@ -5,7 +5,7 @@ services:
     restart: always
     environment:
       POSTGRES_USER: rusty
-      POSTGRES_PASSWORD: traders
+      POSTGRES_PASSWORD: Rus+Ytr@d3r2025
       POSTGRES_DB: rustytraders
     ports:
       - "5432:5432"

@@ -14,13 +14,16 @@ BladeIV (GitHub: [BladeIV](https://github.com/BladeIV))
 
 ## 🚀 Project Overview
 
-| Phase | Title | Status | Hours Logged | Description |
-|:------|:-------|:-------|:--------------|:-------------|
-| **1** | Setup & Authentication | ✅ Completed | 12 h 30 m | Environment scaffolding (Next.js + NestJS + Docker), JWT authentication, database setup, and GitHub repo initialization. |
-| **2** | KYC & Verification | 🔄 In Progress | **8 h 11 m** | Database + Prisma integration complete (`add_kyc_module` migration). Next: implement secure ID & selfie upload, admin approval workflow, and encrypted storage. |
-| **3** | Marketplace Core | ⏳ Pending | — | Product listings, category filters, in-app chat, and search functionality. |
-| **4** | Payments & Safety Layer | ⏳ Pending | — | Paystack integration, escrow logic, and fraud-protection automation. |
-| **5** | Reviews & Launch | ⏳ Pending | — | Ratings, verified badges, deployment readiness, and final audit. |
+| Phase | Title | Status | Description |
+|:------|:------|:------:|:------------|
+| **1** | Setup & Authentication | ✅ Completed | Environment scaffolding (Next.js + NestJS + Docker), JWT auth, DB init. |
+| **2** | KYC & Verification | 🟩 Backend Stable / Frontend In Progress | Secure identity verification (ID & selfie upload, AES encryption, admin approval). |
+| **3** | Marketplace Core | ⏳ Pending | Product listings, category filters, in-app chat, search functionality. |
+| **4** | Payments & Safety Layer | ⏳ Pending | Paystack integration, escrow logic, fraud-protection automation. |
+| **5** | Reviews & Launch | ⏳ Pending | Ratings, verified badges, deployment readiness. |
+
+**🧾 Last Updated:** 2025-10-16 — Phase 2 Day 2 (**8 h**)  
+**Milestone Log:** [`docs/milestones/phase2_day2.md`](docs/milestones/phase2_day2.md)
 
 ---
 

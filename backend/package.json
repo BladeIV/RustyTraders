@@ -1,13 +1,36 @@
 {
+  "name": "rustytraders-backend",
+  "version": "1.0.0",
+  "description": "RustyTraders Backend (NestJS + Prisma + AES Encryption)",
+  "main": "dist/main.js",
+  "scripts": {
+    "start": "nest start",
+    "start:dev": "nest start --watch",
+    "build": "nest build",
+    "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
+    "lint": "eslint \"{src,apps,libs,test}/**/*.ts\" --fix",
+    "prisma:generate": "prisma generate",
+    "prisma:migrate": "prisma migrate dev",
+    "prisma:studio": "prisma studio"
+  },
   "dependencies": {
     "@nestjs/common": "^11.1.6",
     "@nestjs/core": "^11.1.6",
     "@nestjs/platform-express": "^11.1.6",
     "@prisma/client": "^6.17.0",
+    "crypto-js": "^4.2.0",
+    "dotenv": "^16.4.5",
     "reflect-metadata": "^0.2.2",
     "rxjs": "^7.8.2"
   },
   "devDependencies": {
-    "prisma": "^6.17.0"
+    "@nestjs/cli": "^11.0.10",
+    "@nestjs/schematics": "^11.0.9",
+    "@nestjs/testing": "^11.1.6",
+    "@types/node": "^24.8.0",
+    "eslint": "^9.13.0",
+    "prettier": "^3.3.3",
+    "prisma": "^6.17.0",
+    "typescript": "^5.6.3"
   }
 }
